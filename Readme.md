@@ -9,19 +9,18 @@
 7. pip freeze > requirements.txt ("taking a snapshot" of your current sandbox) & (to update your "recipe" list)
 
 
-mypythonapp/
-
-├── app.py              <-- The Entry Point (Run this)
-├── config.py           <-- Configuration Loader
-├── extensions.py       <-- Shared objects (like the DB)
-├── routes.py           <-- All your URL endpoints
-├── models.py           <-- Database structure
-├── .env                <-- Secrets (Postgres URL)
-├── .gitignore          <-- Keep Git clean
-├── newrelic.ini        <-- Monitoring
-├── logs/
-│   └── api.log         <-- App logs
-└── templates/
-    ├── base.html       <-- Main Design (CSS/Layout)
-    ├── index.html      <-- Home Page
-    └── users.html      <-- User Table Page
+0. mypythonapp/
+1. ├── app.py              <-- The Entry Point (Run this)
+2. ├── config.py           <-- Configuration Loader
+3. ├── extensions.py       <-- Shared objects (like the DB)
+4. ├── routes.py           <-- All your URL endpoints
+5. ├── models.py           <-- Database structure
+6. ├── .env                <-- Secrets (Postgres URL)
+7. ├── .gitignore          <-- Keep Git clean
+8. ├── newrelic.ini        <-- Monitoring
+9. ├── logs/
+10. │   └── api.log         <-- App logs
+11. └── templates/
+12.     ├── base.html       <-- Main Design (CSS/Layout)
+13.     ├── index.html      <-- Home Page
+14.     └── users.html      <-- User Table Page
