@@ -1,14 +1,16 @@
 ######################## Commands #########################
 
-#newrelic-admin generate-config YOURLICENSEKEY newrelic.ini
-#NEWRELICCONFIGFILE=newrelic.ini newrelic-admin run-program python app.py
-#source test/bin/activate -"to activate or resume your env"
-#deactivate - "to close your environment"
-#Note - never upload your venv folder to GitHub or Bitbucket
-#pip install -r requirements.txt
-#pip freeze > requirements.txt ("taking a snapshot" of your current sandbox) & (to update your "recipe" list)
+1. newrelic-admin generate-config YOURLICENSEKEY newrelic.ini
+2. NEWRELICCONFIGFILE=newrelic.ini newrelic-admin run-program python app.py
+3. source test/bin/activate -"to activate or resume your env"
+4. deactivate - "to close your environment"
+5. Note - never upload your venv folder to GitHub or Bitbucket
+6. pip install -r requirements.txt
+7. pip freeze > requirements.txt ("taking a snapshot" of your current sandbox) & (to update your "recipe" list)
 
-##mypythonapp/
+
+mypythonapp/
+
 ├── app.py              <-- The Entry Point (Run this)
 ├── config.py           <-- Configuration Loader
 ├── extensions.py       <-- Shared objects (like the DB)
